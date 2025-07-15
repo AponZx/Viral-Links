@@ -3,123 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ভাইরাল লিংকস - বাংলাদেশি ১৮+ ভিডিও</title>
-  <meta name="description" content="১৮+ বাংলাদেশি ভাইরাল গার্লস ভিডিও লিংকস। টিকটক, বাসর রাত, কলেজ গার্ল ভিডিও সহ।" />
+  <title>ভাইরাল লিংকস - ১৮+ বাংলাদেশি ভিডিও</title>
+  <meta name="description" content="১৮+ বাংলাদেশি ভাইরাল গার্লস ভিডিও লিংকস - কলেজ, বাসর রাত, টিকটক, ও আরও অনেক কিছু।" />
   <style>
-    /* Basic reset & dark theme */
     body {
-      margin: 0; padding: 0;
-      background: #121212;
-      color: #eee;
-      font-family: 'Noto Sans Bengali', Arial, sans-serif;
-      line-height: 1.4;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+      font-family: 'Noto Sans Bengali', sans-serif;
     }
-    a { color: #e91e63; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
     header {
-      background: #e91e63;
-      padding: 1rem 2rem;
+      background: #ffffff;
+      padding: 1rem;
       text-align: center;
-      font-size: 1.8rem;
-      font-weight: 700;
-      letter-spacing: 2px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-bottom: 1px solid #ddd;
     }
-
     nav {
-      background: #222;
-      padding: 0.8rem 2rem;
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
       justify-content: center;
+      gap: 8px;
+      padding: 10px;
+      background: #fff;
+      border-bottom: 1px solid #eee;
     }
     nav a {
-      background: #333;
-      padding: 8px 16px;
-      border-radius: 20px;
-      font-weight: 600;
       font-size: 0.9rem;
-      box-shadow: 0 0 5px #e91e63aa;
-      transition: background 0.3s;
+      padding: 6px 12px;
+      background: #f1f1f1;
+      color: #333;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: 0.2s ease;
     }
     nav a:hover {
       background: #e91e63;
       color: #fff;
-      box-shadow: 0 0 10px #e91e63;
     }
-
     main {
       max-width: 960px;
-      margin: 1rem auto;
-      padding: 0 1rem;
+      margin: auto;
+      padding: 1rem;
     }
-
     #search-box {
-      margin: 1rem 0 2rem;
       text-align: center;
+      margin-bottom: 1rem;
     }
     #search-input {
       width: 100%;
-      max-width: 480px;
-      padding: 10px 15px;
-      font-size: 1.1rem;
-      border-radius: 25px;
-      border: none;
-      outline: none;
-      box-shadow: 0 0 10px #e91e63aa;
-      background: #222;
-      color: #eee;
-    }
-
-    section {
-      margin-bottom: 2rem;
+      max-width: 400px;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 20px;
     }
     section h2 {
-      font-weight: 700;
-      border-bottom: 2px solid #e91e63;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
       padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-      font-size: 1.4rem;
     }
-
     .video-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1rem;
     }
-
     .video-card {
       position: relative;
-      background: #222;
-      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
       overflow: hidden;
       cursor: pointer;
-      box-shadow: 0 0 8px #e91e63aa;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
       transition: transform 0.2s ease;
     }
     .video-card:hover {
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
-
     .video-thumb {
       width: 100%;
-      height: 140px;
+      height: 130px;
       object-fit: cover;
-      display: block;
     }
-
     .play-icon {
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 50px;
-      height: 50px;
-      margin-left: -25px;
-      margin-top: -25px;
+      width: 40px;
+      height: 40px;
+      margin-left: -20px;
+      margin-top: -20px;
       background: rgba(233,30,99,0.8);
       border-radius: 50%;
-      box-shadow: 0 0 15px #e91e63;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -127,226 +107,148 @@
     .play-icon:after {
       content: "";
       display: inline-block;
-      margin-left: 5px;
+      margin-left: 3px;
       border-style: solid;
-      border-width: 10px 0 10px 16px;
-      border-color: transparent transparent transparent #fff;
+      border-width: 8px 0 8px 12px;
+      border-color: transparent transparent transparent white;
     }
-
     .video-title {
-      padding: 0.5rem 0.8rem;
+      padding: 0.5rem;
+      font-size: 0.95rem;
+      text-align: center;
       font-weight: 600;
-      font-size: 1rem;
-      color: #eee;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
-
-    /* Video modal */
     #video-modal {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.95);
+      background: rgba(0,0,0,0.9);
       display: none;
       justify-content: center;
       align-items: center;
       z-index: 9999;
-      padding: 1rem;
     }
     #video-modal iframe {
-      width: 100%;
-      max-width: 900px;
-      height: 500px;
+      width: 90%;
+      max-width: 800px;
+      height: 450px;
       border: none;
-      border-radius: 12px;
-      box-shadow: 0 0 15px #e91e63aa;
     }
-    #video-modal .close-btn {
+    #modal-close {
       position: absolute;
-      top: 15px;
-      right: 20px;
-      font-size: 2.8rem;
-      color: #e91e63;
+      top: 20px;
+      right: 30px;
+      color: #fff;
+      font-size: 2rem;
       cursor: pointer;
-      user-select: none;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      .video-thumb { height: 110px; }
-      #video-modal iframe { height: 260px; }
-      nav {
-        justify-content: center;
-      }
     }
   </style>
 </head>
 <body>
-  <header>🔥 ভাইরাল লিংকস - বাংলাদেশি ১৮+ ভিডিও 🔥</header>
+  <header>ভাইরাল লিংকস - বাংলাদেশি ১৮+ ভিডিও</header>
 
-  <nav aria-label="Category Menu">
-    <a href="index.html">সর্বশেষ</a>
-    <a href="popular.html">জনপ্রিয়</a>
+  <nav>
+    <a href="index.html">হোম</a>
     <a href="category-college.html">কলেজ গার্ল</a>
     <a href="category-bashor.html">বাসর রাত</a>
     <a href="category-secret.html">গোপন ক্যামেরা</a>
     <a href="category-tiktok.html">টিকটক ভিডিও</a>
-    <a href="category-student.html">ছাত্রছাত্রীদের ভিডিও</a>
-    <a href="category-hotel.html">হোটেল ভিডিও</a>
-    <a href="category-facebook.html">ফেসবুক লাইভ লিকড</a>
-    <a href="category-selfie.html">সেলফি ভিডিও</a>
-    <a href="category-customer.html">কাস্টমার ও সেলসম্যান</a>
-    <a href="category-borka.html">বোরকা পরা গার্ল</a>
-    <a href="category-room.html">রুমে একা ছেলেমেয়ে</a>
-    <a href="category-family.html">ফ্যামিলি ভিডিও</a>
-    <a href="category-whatsapp.html">ভাইরাল Whatsapp ভিডিও</a>
-    <a href="category-neighbor.html">পাশের বাসার মেয়ে</a>
-    <a href="category-blackmail.html">ব্ল্যাকমেইল ভিডিও</a>
-    <a href="category-pool.html">পুলে সেক্সি মোমেন্টস</a>
+    <a href="category-student.html">ছাত্রছাত্রী</a>
+    <a href="category-hotel.html">হোটেল</a>
+    <a href="category-facebook.html">ফেসবুক</a>
+    <a href="category-borka.html">বোরকা গার্ল</a>
+    <a href="category-family.html">ফ্যামিলি</a>
+    <a href="category-pool.html">পুল ভিডিও</a>
+    <a href="#">আরও...</a>
   </nav>
 
   <main>
     <div id="search-box">
-      <input
-        type="text"
-        id="search-input"
-        placeholder="ভিডিও খুঁজুন..."
-        aria-label="ভিডিও সার্চ"
-      />
+      <input type="text" id="search-input" placeholder="ভিডিও খুঁজুন...">
     </div>
 
-    <section id="recent-videos">
-      <h2>সর্বশেষ ভিডিও</h2>
-      <div class="video-grid" id="recent-list"></div>
+    <section>
+      <h2>সাম্প্রতিক ভিডিও</h2>
+      <div class="video-grid" id="recent-videos"></div>
     </section>
 
-    <section id="popular-videos">
-      <h2>জনপ্রিয় ভিডিও</h2>
-      <div class="video-grid" id="popular-list"></div>
+    <section>
+      <h2>জনপ্রিয় ভিডিও</h2>
+      <div class="video-grid" id="popular-videos"></div>
     </section>
   </main>
 
-  <div id="video-modal" role="dialog" aria-modal="true" aria-labelledby="video-title">
-    <div class="close-btn" id="modal-close" tabindex="0" role="button" aria-label="ভিডিও বন্ধ করুন">&times;</div>
-    <iframe
-      id="video-player"
-      src=""
-      allowfullscreen
-      allow="autoplay"
-      title="ভিডিও প্লেয়ার"
-    ></iframe>
+  <div id="video-modal">
+    <div id="modal-close">&times;</div>
+    <iframe id="video-player" src="" allowfullscreen allow="autoplay"></iframe>
   </div>
 
-  <!-- ADSTERRA NATIVE BANNER TOP -->
-  <!-- পপআন্ডার, সোশ্যাল বার, এবং অন্যান্য অ্যাড কোড এখানে যুক্ত করবেন -->
+  <!-- ADSTERRA NATIVE BANNER -->
+  <!-- ADSTERRA POPUNDER / SOCIAL BAR / PUSH -->
 
   <script>
-    // Video Data (sample)
     const recentVideos = [
       {
-        title: "কলেজ গার্ল গোপন ভিডিও",
+        title: "কলেজ গার্ল লিকড ভিডিও",
         thumb: "https://di.phncdn.com/videos/202307/22/31245/preview/4.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f682a6a9b4b2",
+        embedUrl: "https://www.pornhub.com/embed/ph5f682a6a9b4b2"
       },
       {
-        title: "বাসর রাতের গরম ভিডিও",
+        title: "বাসর রাতের গোপন মুহূর্ত",
         thumb: "https://di.phncdn.com/videos/202309/26/37800/preview/3.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f753c5ac3f32",
-      },
-      {
-        title: "টিকটক ভাইরাল ভিডিও",
-        thumb: "https://di.phncdn.com/videos/202310/05/38654/preview/5.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f79baf8ae7c2",
-      },
-      {
-        title: "ছাত্রছাত্রীদের মজার ভিডিও",
-        thumb: "https://di.phncdn.com/videos/202305/10/34567/preview/1.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f6b7d5d5c123",
-      },
+        embedUrl: "https://www.pornhub.com/embed/ph5f753c5ac3f32"
+      }
     ];
 
     const popularVideos = [
       {
-        title: "বোরকা পরা সুন্দরী",
-        thumb: "https://di.phncdn.com/videos/202310/08/39888/preview/7.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f7ac8d1f9b82",
+        title: "বোরকা গার্ল হোটেল সিন",
+        thumb: "https://di.phncdn.com/videos/202310/05/38654/preview/5.jpg",
+        embedUrl: "https://www.pornhub.com/embed/ph5f79baf8ae7c2"
       },
       {
-        title: "ফেসবুক লাইভ গরম মুহূর্ত",
-        thumb: "https://di.phncdn.com/videos/202308/12/35612/preview/6.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f712df8c6a42",
-      },
-      {
-        title: "বাসার পাশের মেয়ে",
-        thumb: "https://di.phncdn.com/videos/202309/01/34567/preview/2.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f6cc7d9e7c12",
-      },
-      {
-        title: "হোটেল ভিডিও ঝলক",
-        thumb: "https://di.phncdn.com/videos/202307/15/33456/preview/1.jpg",
-        embedUrl: "https://www.pornhub.com/embed/ph5f6a8d1f8b12",
+        title: "ফেসবুক লাইভ ভিডিও লিক",
+        thumb: "https://di.phncdn.com/videos/202305/10/34567/preview/1.jpg",
+        embedUrl: "https://www.pornhub.com/embed/ph5f6b7d5d5c123"
       }
     ];
 
-    const recentList = document.getElementById("recent-list");
-    const popularList = document.getElementById("popular-list");
     const modal = document.getElementById("video-modal");
-    const videoPlayer = document.getElementById("video-player");
-    const modalClose = document.getElementById("modal-close");
-    const searchInput = document.getElementById("search-input");
+    const player = document.getElementById("video-player");
+    const closeBtn = document.getElementById("modal-close");
 
-    function createVideoCard(video) {
-      const card = document.createElement("div");
-      card.className = "video-card";
-      card.innerHTML = `
-        <img class="video-thumb" src="${video.thumb}" alt="${video.title}" />
-        <div class="play-icon"></div>
-        <div class="video-title" title="${video.title}">${video.title}</div>
-      `;
-      card.onclick = () => {
-        videoPlayer.src = video.embedUrl + "?autoplay=1&rel=0";
-        modal.style.display = "flex";
-      };
-      return card;
-    }
-
-    function renderVideos(listElem, videos) {
-      listElem.innerHTML = "";
+    function renderVideos(videos, containerId) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = "";
       videos.forEach(video => {
-        listElem.appendChild(createVideoCard(video));
+        const div = document.createElement("div");
+        div.className = "video-card";
+        div.innerHTML = `
+          <img class="video-thumb" src="${video.thumb}" alt="${video.title}">
+          <div class="play-icon"></div>
+          <div class="video-title">${video.title}</div>
+        `;
+        div.onclick = () => {
+          player.src = video.embedUrl + "?autoplay=1";
+          modal.style.display = "flex";
+        };
+        container.appendChild(div);
       });
     }
 
-    // Initial render
-    renderVideos(recentList, recentVideos);
-    renderVideos(popularList, popularVideos);
-
-    modalClose.onclick = () => {
-      videoPlayer.src = "";
+    closeBtn.onclick = () => {
+      player.src = "";
       modal.style.display = "none";
     };
 
     modal.onclick = e => {
       if (e.target === modal) {
-        videoPlayer.src = "";
+        player.src = "";
         modal.style.display = "none";
       }
     };
 
-    // Search function
-    searchInput.addEventListener("input", () => {
-      const query = searchInput.value.toLowerCase().trim();
-      if (!query) {
-        renderVideos(recentList, recentVideos);
-        renderVideos(popularList, popularVideos);
-        return;
-      }
-      const filterVideos = (videos) =>
-        videos.filter(v => v.title.toLowerCase().includes(query));
-      renderVideos(recentList, filterVideos(recentVideos));
-      renderVideos(popularList, filterVideos(popularVideos));
-    });
+    renderVideos(recentVideos, "recent-videos");
+    renderVideos(popularVideos, "popular-videos");
   </script>
 </body>
 </html>
